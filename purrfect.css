@@ -1,0 +1,59 @@
+
+body{
+    font-family: poppins;
+    background-image: url('images/purr 1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.row{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: relative;
+    background:rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    height: 100vh;
+}
+html{
+    height: 100%;
+}
+.navbar-brand {
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+.navbar-default{
+    margin: 0;
+}
+.navbar-default .navbar-brand {
+    color: black;
+}
+.row{
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 25%;
+}
+hr{
+    width: 25%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3) ;
+}
+.row:first-of-type h1{
+    color: white;
+    text-shadow: 1px 2px 2px black,
+                 0px 8px 13px black,
+                 0px 18px 20px black;
+    font-size: 4em;
+}
+.row:first-of-type p{
+    color: white;
+    text-shadow: 1px 1px 2px black,
+                 0px 8px 13px black,
+                 0px 18px 23px black;
+                 font-size: 1.2em;
+}
+ .btn-default{
+    font-size: 1em;
+    font-weight: bold;
+}
